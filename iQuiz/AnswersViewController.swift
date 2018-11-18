@@ -48,6 +48,7 @@ internal class AnswersViewController: UIViewController {
         } else if (segue.identifier == "finish") {
             let destination = segue.destination as! FinishViewController
             destination.totalScore = score
+            destination.totalPossible = questions.count
         }
     }
     @IBAction func backHome(_ sender: Any) {

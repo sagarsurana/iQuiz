@@ -29,7 +29,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TS-lc-y8C">
-                                                    <rect key="frame" x="82" y="50" width="222" height="15.333333333333329"/>
+                                                    <rect key="frame" x="82" y="50" width="312" height="15.333333333333329"/>
                                                     <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="13"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -43,7 +43,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzc-zq-rQJ">
-                                                    <rect key="frame" x="82" y="0.0" width="238" height="45"/>
+                                                    <rect key="frame" x="82" y="0.0" width="332" height="45"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="45" id="Oar-U4-Dqa"/>
                                                     </constraints>
@@ -400,8 +400,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="M4f-Ob-PDN"/>
         <segue reference="wtO-cx-EzO"/>
-        <segue reference="Znv-wD-Gtr"/>
+        <segue reference="5Xs-fa-2gN"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -15,8 +15,10 @@
 		1B435BF92186A25600D79A1F /* TableCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B435BF82186A25600D79A1F /* TableCellViewController.swift */; };
 		1BA9737021914B7E00E018E3 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9736F21914B7E00E018E3 /* QuestionsViewController.swift */; };
 		1BA9737221914DB000E018E3 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9737121914DB000E018E3 /* Database.swift */; };
-		1BA973742191671200E018E3 /* AnswersViewControllera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA973732191671200E018E3 /* AnswersViewControllera.swift */; };
+		1BA973742191671200E018E3 /* AnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA973732191671200E018E3 /* AnswersViewController.swift */; };
 		1BA9737621916FEE00E018E3 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9737521916FEE00E018E3 /* FinishViewController.swift */; };
+		1BD3EB2221A143F700B436E3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3EB2121A143F700B436E3 /* Settings.bundle */; };
+		1BD3EB2421A144B400B436E3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3EB2321A144B400B436E3 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +32,10 @@
 		1B435BF82186A25600D79A1F /* TableCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellViewController.swift; sourceTree = "<group>"; };
 		1BA9736F21914B7E00E018E3 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		1BA9737121914DB000E018E3 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		1BA973732191671200E018E3 /* AnswersViewControllera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewControllera.swift; sourceTree = "<group>"; };
+		1BA973732191671200E018E3 /* AnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewController.swift; sourceTree = "<group>"; };
 		1BA9737521916FEE00E018E3 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		1BD3EB2121A143F700B436E3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1BD3EB2321A144B400B436E3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +71,11 @@
 				1BA9736F21914B7E00E018E3 /* QuestionsViewController.swift */,
 				1B435BE6218696F100D79A1F /* AppDelegate.swift */,
 				1B435BE8218696F100D79A1F /* TableViewController.swift */,
+				1BD3EB2321A144B400B436E3 /* Settings.swift */,
 				1B435BEA218696F100D79A1F /* Main.storyboard */,
 				1B435BED218696F200D79A1F /* Assets.xcassets */,
-				1BA973732191671200E018E3 /* AnswersViewControllera.swift */,
+				1BD3EB2121A143F700B436E3 /* Settings.bundle */,
+				1BA973732191671200E018E3 /* AnswersViewController.swift */,
 				1B435BEF218696F200D79A1F /* LaunchScreen.storyboard */,
 				1BA9737121914DB000E018E3 /* Database.swift */,
 				1BA9737521916FEE00E018E3 /* FinishViewController.swift */,
@@ -137,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD3EB2221A143F700B436E3 /* Settings.bundle in Resources */,
 				1B435BF1218696F200D79A1F /* LaunchScreen.storyboard in Resources */,
 				1B435BEE218696F200D79A1F /* Assets.xcassets in Resources */,
 				1B435BEC218696F100D79A1F /* Main.storyboard in Resources */,
@@ -152,11 +159,12 @@
 			files = (
 				1B435BE9218696F100D79A1F /* TableViewController.swift in Sources */,
 				1B435BE7218696F100D79A1F /* AppDelegate.swift in Sources */,
-				1BA973742191671200E018E3 /* AnswersViewControllera.swift in Sources */,
+				1BA973742191671200E018E3 /* AnswersViewController.swift in Sources */,
 				1BA9737621916FEE00E018E3 /* FinishViewController.swift in Sources */,
 				1BA9737021914B7E00E018E3 /* QuestionsViewController.swift in Sources */,
 				1BA9737221914DB000E018E3 /* Database.swift in Sources */,
 				1B435BF92186A25600D79A1F /* TableCellViewController.swift in Sources */,
+				1BD3EB2421A144B400B436E3 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
